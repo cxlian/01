@@ -1,0 +1,4 @@
+<view>个人基本信息展示</view>
+
+<view>用户名：{{ username.username }}</view>
+<view>密码：{{ username.password }}</view>

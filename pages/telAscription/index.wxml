@@ -1,0 +1,10 @@
+<view class='main'>
+  <input placeholder="请输入手机号码" bindinput='input'/>
+  <text>备注说明：仅支持国内的手机号码查询。</text>
+  <button type='primary' bindtap='btnClick'>查询</button>
+  <view class='returnText' style='display:{{ textshow }}'>
+    <text>城市：{{ retData.result.province }}{{ retData.result.city }}\n</text>
+    <text>区号：{{ retData.result.cityCode }}\n</text>
+    <text>设备：{{ retData.result.operator }}\n</text>
+  </view>
+</view>

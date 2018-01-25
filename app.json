@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/telAscription/index",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/firstPage/first",
+    "pages/logs/logs"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "我的一个小案例",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "目录"
+      },
+      {
+        "pagePath": "pages/telAscription/index",
+        "text": "号码查询"
+      }
+    ]
+  }
+}

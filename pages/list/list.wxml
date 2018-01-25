@@ -1,0 +1,11 @@
+<navigator url='../firstPage/first?page=list'>
+<view><text>firstPage</text></view>
+</navigator>
+
+<navigator url='../login/login'>
+<view><text>登录页</text></view>
+</navigator>
+
+<navigator url='../user/user'>
+<view><text>个人中心页</text></view>
+</navigator>
